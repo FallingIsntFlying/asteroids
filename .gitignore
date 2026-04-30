@@ -10,5 +10,7 @@ wheels/
 .venv
 
 # Bootdev files
-game_state_jsonl
+game_state.jsonl
+game_events.jsonl
+
 
