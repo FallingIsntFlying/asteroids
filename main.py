@@ -52,7 +52,7 @@ def main():
             for k in shots:
                 if k.collisions_with(i):
                     log_event("asteroid_shot")
-                    i.kill()
+                    i.split()
                     k.kill()
 
         
